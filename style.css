@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: radial-gradient(
+    circle at 50% 50% in oklch,
+    oklch(22.83% 0.0551 260.16) 0%,
+    oklch(24.41% 0.0544 259.25) 2.6%,
+    oklch(26.48% 0.0534 258.06) 5.1%,
+    oklch(28.97% 0.0523 256.64) 7.7%,
+    oklch(31.83% 0.051 255.01) 10.3%,
+    oklch(34.98% 0.0495 253.22) 12.8%,
+    oklch(38.36% 0.048 251.29) 15.4%,
+    oklch(41.9% 0.0464 249.27) 17.9%,
+    oklch(45.55% 0.0447 247.19) 20.5%,
+    oklch(49.24% 0.043 245.09) 23.1%,
+    oklch(52.9% 0.0413 242.99) 25.6%,
+    oklch(56.47% 0.0397 240.95) 28.2%,
+    oklch(59.89% 0.0381 238.98) 30.8%,
+    oklch(63.08% 0.0365 237.14) 33.3%,
+    oklch(65.99% 0.0351 235.46) 35.9%,
+    oklch(68.55% 0.0338 233.96) 38.5%,
+    oklch(70.69% 0.0327 232.69) 41%,
+    oklch(72.36% 0.0317 231.69) 43.6%,
+    oklch(73.49% 0.031 230.98) 46.2%,
+    oklch(74% 0.0305 230.62) 48.7%,
+    oklch(73.85% 0.0302 230.62) 51.3%,
+    oklch(73.02% 0.0302 230.98) 53.8%,
+    oklch(71.56% 0.0304 231.69) 56.4%,
+    oklch(69.56% 0.0308 232.69) 59%,
+    oklch(67.06% 0.0314 233.96) 61.5%,
+    oklch(64.15% 0.0321 235.46) 64.1%,
+    oklch(60.89% 0.033 237.14) 66.7%,
+    oklch(57.35% 0.0339 238.98) 69.2%,
+    oklch(53.58% 0.035 240.95) 71.8%,
+    oklch(49.67% 0.0361 242.99) 74.4%,
+    oklch(45.67% 0.0372 245.09) 76.9%,
+    oklch(41.65% 0.0384 247.19) 79.5%,
+    oklch(37.68% 0.0395 249.27) 82.1%,
+    oklch(33.83% 0.0406 251.29) 84.6%,
+    oklch(30.17% 0.0417 253.22) 87.2%,
+    oklch(26.75% 0.0427 255.01) 89.7%,
+    oklch(23.65% 0.0436 256.64) 92.3%,
+    oklch(20.94% 0.0444 258.06) 94.9%,
+    oklch(18.67% 0.045 259.25) 97.4%,
+    oklch(16.93% 0.0455 260.16) 100%
+  );
+  /* background: no-repeat; */
+  /* min-height: 100vh; */
+}
+.card {
+  height: 400px;
+  width: 400px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.quiz-card {
+  background: linear-gradient(135deg, #dce6f0, #a8bfd3);
+  /* color: white; */
+  color: #17263e;
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.option-btn {
+  width: 170px;
+  height: 53px;
+  /* background: linear-gradient(135deg, #526d8c, #8da9c4);
+   */
+  border: 1px solid #17263e;
+  color: #17263e;
+}
+
+.option-btn:hover {
+  background: linear-gradient(135deg, #526d8c, #8da9c4);
+  color: #17263e;
+}
+.next-btn {
+  color: #a8bfd3;
+  background: linear-gradient(135deg, #17263e, #496b92);
+
+  border: 1px solid #17263e;
+}
+
+.next-btn:hover {
+  background: linear-gradient(180deg, #17263e, #496b92);
+  color: #a8bfd3;
+}
+
+.result-qns {
+  background: linear-gradient(135deg, #c8d8e8, #8da9c4);
+  border: none;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  color: #17263e;
+}
+
+.list-group {
+  color: #17263e;
+}
+
+.summary-txt {
+  color: #17263e;
+}
+
+.quiz-app {
+  background: linear-gradient(180deg, #17263e, #496b92, #8da9c4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
